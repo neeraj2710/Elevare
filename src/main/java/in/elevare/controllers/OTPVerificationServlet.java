@@ -37,7 +37,7 @@ public class OTPVerificationServlet extends HttpServlet {
         String otp = String.valueOf(new Random().nextInt(900000) + 100000);
         String appName = (String) super.getServletContext().getAttribute("appName");
 
-        System.out.println(name+email+password+role+otp+appName);
+
 
         session.setAttribute("regName", name);
         session.setAttribute("regOtp", "otp");
