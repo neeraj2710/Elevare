@@ -54,7 +54,7 @@ public class OTPVerificationServlet extends HttpServlet {
                 "\n" +
                 "Cheers," +
                 "\n" +
-                "The "+appName+" Team";
+                "The "+appName+" Team ";
 
         try {
             MailUtil.sendTextEmail(email, "Email Verification", emailBody);
