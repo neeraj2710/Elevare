@@ -40,7 +40,7 @@ public class OTPVerificationServlet extends HttpServlet {
 
 
         session.setAttribute("regName", name);
-        session.setAttribute("regOtp", "otp");
+        session.setAttribute("regOtp", otp);
         session.setAttribute("regEmail", email);
         session.setAttribute("regPassword", password);
         session.setAttribute("regRole", role);
